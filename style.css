@@ -109,3 +109,21 @@ div.banner {
   width: 100%;
   background: #3BB9E3;
 }
+
+div.bar {
+  height: 59px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+div.bar .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 285px;
+}
+
+div.bar .content ul {
+  list-style: none;
+  display: flex;
+}
